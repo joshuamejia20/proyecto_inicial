@@ -7,5 +7,18 @@ import { Component } from '@angular/core';
   styleUrl: './empleado.css'
 })
 export class Empleado {
+  nombre = "Juan";
+  apellido = "Pérez";
+  edad = 15;
+  empresa = "UCAD";
 
+  constructor(){}
+
+  getEdad(){
+    return this.edad;
+  }
+
+  llamar_empresa(empresa: string){
+    
+  }
 }
